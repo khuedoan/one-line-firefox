@@ -1,0 +1,56 @@
+/* Tab bar */
+#TabsToolbar {
+	margin-left: 25vw !important;
+	max-height: 32px !important;
+}
+
+.titlebar-placeholder[type="pre-tabs"] {
+	display: none !important;
+}
+
+.tabbrowser-tab::before, .tabbrowser-tab::after {
+	border-left : none !important;
+}
+
+.tab-line {
+	display: none !important;
+}
+
+:root {
+	--toolbox-border-bottom-color: transparent !important;
+}
+
+.tabbrowser-tab {
+	height: 32px !important;
+}
+
+.tabbrowser-tab:not(:hover) .tab-close-button{
+	display:none;
+}
+
+.tabbrowser-tab:not([pinned]):hover .tab-close-button{
+	display:-moz-box !important;
+}
+
+/* Nav bar*/
+#nav-bar {
+	margin-top: -32px !important;
+	margin-bottom: -1px !important;
+	margin-right: 75vw !important;
+	height: 32px !important;
+}
+
+/* URL bar */
+#urlbar-container {
+	min-width: 100px !important;
+}
+
+#urlbar {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+#page-action-buttons {
+	display: none !important;
+}
