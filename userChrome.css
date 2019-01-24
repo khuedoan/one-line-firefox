@@ -4,6 +4,11 @@
 	max-height: 32px !important;
 }
 
+.tabbrowser-arrowscrollbox {
+	height: 32px !important;
+	min-height: 32px !important;
+}
+
 .titlebar-placeholder[type="pre-tabs"] {
 	display: none !important;
 }
@@ -18,11 +23,6 @@
 
 :root {
 	--toolbox-border-bottom-color: transparent !important;
-}
-
-.tabbrowser-tab {
-	height: 32px !important;
-	min-height: 32px !important;
 }
 
 .tabbrowser-tab:not(:hover) .tab-close-button{
