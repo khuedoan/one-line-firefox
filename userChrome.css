@@ -22,6 +22,7 @@
 
 .tabbrowser-tab {
 	height: 32px !important;
+	min-height: 32px !important;
 }
 
 .tabbrowser-tab:not(:hover) .tab-close-button{
