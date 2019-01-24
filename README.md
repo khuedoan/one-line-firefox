@@ -20,5 +20,7 @@
 - Restart Firefox
 
 Based on original layout by /u/Herkt and /u/bleeps__
+
 https://www.reddit.com/r/FirefoxCSS/comments/7eazix/my_attempt_at_a_oneline_interface/
+
 https://www.reddit.com/r/FirefoxCSS/comments/7ignsk/oneline_flat_interface_dark_light/
