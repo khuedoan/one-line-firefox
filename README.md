@@ -2,9 +2,9 @@
 
 ## Screenshots
 
-![Light](light.png)
+![Light](images/light.png)
 
-![Dark](dark.png)
+![Dark](images/dark.png)
 
 ## Instructions
 
