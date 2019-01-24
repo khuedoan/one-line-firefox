@@ -15,7 +15,7 @@
 - Open [about:support](about:support), click on `Open Folder` in Profile Folder
 
 - Create a sub-folder named `chrome`.
-- Put this `userChrome.css` into that folder.
+- Put this [userChrome.css](https://raw.githubusercontent.com/khuedoan98/one-line-firefox/master/userChrome.css) into that folder.
 
 - Restart Firefox
 
