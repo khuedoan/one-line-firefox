@@ -25,14 +25,6 @@
 	--toolbox-border-bottom-color: transparent !important;
 }
 
-.tabbrowser-tab:not(:hover) .tab-close-button{
-	display:none;
-}
-
-.tabbrowser-tab:not([pinned]):hover .tab-close-button{
-	display:-moz-box !important;
-}
-
 /* Nav bar*/
 #nav-bar {
 	margin-top: -32px !important;
