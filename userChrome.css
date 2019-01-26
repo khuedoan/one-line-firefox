@@ -25,6 +25,10 @@
 	--toolbox-border-bottom-color: transparent !important;
 }
 
+.private-browsing-indicator {
+	display: none !important;
+}
+
 /* Nav bar*/
 #nav-bar {
 	margin-top: -32px !important;
