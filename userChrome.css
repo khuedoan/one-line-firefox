@@ -1,5 +1,11 @@
 /* Tab bar */
+#navigator-toolbox::after {
+	border-bottom: 0px !important;
+}
+
 #TabsToolbar {
+    margin-top: -1px !important;
+    margin-bottom: 1px !important;
 	margin-left: 25vw !important;
 	max-height: 32px !important;
 }
@@ -25,12 +31,9 @@
 	--toolbox-border-bottom-color: transparent !important;
 }
 
-.private-browsing-indicator {
-	display: none !important;
-}
-
 /* Nav bar*/
 #nav-bar {
+    background: transparent !important;
 	margin-top: -32px !important;
 	margin-bottom: -1px !important;
 	margin-right: 75vw !important;
@@ -43,11 +46,16 @@
 }
 
 #urlbar {
-	background: transparent !important;
+    background: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
+}
+
+#identity-box {
+    display: none !important;
 }
 
 #page-action-buttons {
 	display: none !important;
 }
+
