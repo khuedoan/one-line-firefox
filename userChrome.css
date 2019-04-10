@@ -1,21 +1,3 @@
-:root:not([customizing]) #nav-bar toolbarbutton
- {
-    margin-left: -28px !important;
-    opacity: 0 !important;
-    transform: scale(.85, .85) !important;
-    pointer-events: none !important;
-    transition: all 100ms var(--animation-easing-function) !important;
-}
-
-:root:not([customizing]) :hover > #nav-bar toolbarbutton,
-:root:not([customizing]) #navigator-toolbox:focus-within #nav-bar toolbarbutton,
-:root:not([customizing]) :hover > #titlebar toolbarbutton {
-    transform: scale(1, 1) !important;
-    opacity:1 !important;
-    margin-left:0 !important;
-    pointer-events: auto !important;
-}
-
 /* Tab bar */
 #navigator-toolbox::after {
     border-bottom: 0px !important;
