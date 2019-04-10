@@ -1,53 +1,74 @@
+:root:not([customizing]) #nav-bar toolbarbutton
+ {
+    margin-left: -28px !important;
+    opacity: 0 !important;
+    transform: scale(.85, .85) !important;
+    pointer-events: none !important;
+    transition: all 100ms var(--animation-easing-function) !important;
+}
+
+:root:not([customizing]) :hover > #nav-bar toolbarbutton,
+:root:not([customizing]) #navigator-toolbox:focus-within #nav-bar toolbarbutton,
+:root:not([customizing]) :hover > #titlebar toolbarbutton {
+    transform: scale(1, 1) !important;
+    opacity:1 !important;
+    margin-left:0 !important;
+    pointer-events: auto !important;
+}
+
 /* Tab bar */
+#navigator-toolbox::after {
+    border-bottom: 0px !important;
+}
+
 #TabsToolbar {
-	margin-left: 25vw !important;
-	max-height: 32px !important;
+    margin-top: -1px !important;
+    margin-bottom: 1px !important;
+    margin-left: 25vw !important;
+    max-height: 32px !important;
 }
 
 .tabbrowser-arrowscrollbox {
-	height: 32px !important;
-	min-height: 32px !important;
+    height: 32px !important;
+    min-height: 32px !important;
 }
 
 .titlebar-placeholder[type="pre-tabs"] {
-	display: none !important;
+    display: none !important;
 }
 
 .tabbrowser-tab::before, .tabbrowser-tab::after {
-	border-left : none !important;
+    border-left : none !important;
 }
 
 .tab-line {
-	display: none !important;
+    display: none !important;
 }
 
 :root {
-	--toolbox-border-bottom-color: transparent !important;
-}
-
-.private-browsing-indicator {
-	display: none !important;
+    --toolbox-border-bottom-color: transparent !important;
 }
 
 /* Nav bar*/
 #nav-bar {
-	margin-top: -32px !important;
-	margin-bottom: -1px !important;
-	margin-right: 75vw !important;
-	height: 32px !important;
+    background: transparent !important;
+    margin-top: -32px !important;
+    margin-bottom: -1px !important;
+    margin-right: 75vw !important;
+    height: 32px !important;
 }
 
 /* URL bar */
 #urlbar-container {
-	min-width: 100px !important;
+    min-width: 100px !important;
 }
 
 #urlbar {
-	background: transparent !important;
-	border: none !important;
-	box-shadow: none !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
-#page-action-buttons {
-	display: none !important;
+#identity-box, #page-action-buttons {
+    display: none !important;
 }
