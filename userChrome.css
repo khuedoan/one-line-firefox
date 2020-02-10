@@ -1,6 +1,6 @@
 /* Tab bar */
-#navigator-toolbox::after {
-    border-bottom: 0px !important;
+#navigator-toolbox {
+    border: 0px !important;
 }
 
 #TabsToolbar {
