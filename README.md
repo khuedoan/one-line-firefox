@@ -22,7 +22,7 @@
 
 - Restart Firefox
 
-- If your bar doesn't show up in fullscreen when moving the cursor to the top edge of the screen, see #2
+- If your bar doesn't show up in fullscreen when moving the cursor to the top edge of the screen, see [#2](https://github.com/khuedoan98/one-line-firefox/issues/2)
 
 Based on original layout by /u/Herkt and /u/bleeps__:
 
