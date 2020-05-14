@@ -1,3 +1,12 @@
+/* Transparency */
+#TabsToolbar, #titlebar, #main-window, #navigator-toolbox {
+    -moz-appearance: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
 /* Tab bar */
 #navigator-toolbox {
     border: 0px !important;
@@ -49,6 +58,16 @@
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
+}
+
+#urlbar-background {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.urlbarView {
+    background-color: #282a36 !important;
 }
 
 #page-action-buttons {
