@@ -54,3 +54,80 @@
 #page-action-buttons {
     display: none !important;
 }
+
+/* Tab bar */
+#navigator-toolbox {
+    border: 0px !important;
+}
+
+#TabsToolbar {
+    margin-top: -1px !important;
+    margin-bottom: 1px !important;
+    margin-left: 25vw !important;
+    max-height: 32px !important;
+}
+
+.tabbrowser-arrowscrollbox {
+    height: 32px !important;
+    min-height: 32px !important;
+}
+
+.titlebar-placeholder[type="pre-tabs"] {
+    display: none !important;
+}
+
+.tabbrowser-tab::before, .tabbrowser-tab::after {
+    border-left : none !important;
+}
+
+.tab-line {
+    display: none !important;
+}
+
+:root {
+    --toolbox-border-bottom-color: transparent !important;
+}
+
+/* Nav bar*/
+#nav-bar {
+    background: transparent !important;
+    margin-top: -32px !important;
+    margin-bottom: -1px !important;
+    margin-right: 75vw !important;
+    height: 32px !important;
+}
+
+/* URL bar */
+#urlbar-container {
+    min-width: 100px !important;
+}
+
+#urlbar {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#page-action-buttons {
+    display: none !important;
+}
+
+#urlbar[breakout-extend] {
+    top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+    left: calc((var(--urlbar-toolbar-width) - var(--urlbar-width)) / 2) !important;
+    width: 100% !important
+}
+
+#urlbar[breakout-extend] #urlbar-input-container {
+    height: calc(var(--tab-min-height) - 3px) !important;
+    padding: 0px !important
+}
+
+.urlbarView {
+    margin: 0px !important;
+    width: 100% !important
+}
+
+.urlbarView-row {
+    padding: 0px !important
+}
