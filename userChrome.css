@@ -131,3 +131,7 @@
 .urlbarView-row {
     padding: 0px !important
 }
+
+hbox.titlebar-spacer{
+display:none;
+}
