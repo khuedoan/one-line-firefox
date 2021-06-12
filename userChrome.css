@@ -5,14 +5,14 @@
 
 #TabsToolbar {
     margin-top: -1px !important;
-    margin-bottom: 1px !important;
+    margin-bottom: 0px !important;
     margin-left: 25vw !important;
-    max-height: 32px !important;
+    max-height: 40px !important;
 }
 
 .tabbrowser-arrowscrollbox {
-    height: 32px !important;
-    min-height: 32px !important;
+    height: 40px !important;
+    min-height: 40px !important;
 }
 
 .titlebar-placeholder[type="pre-tabs"] {
@@ -34,10 +34,10 @@
 /* Nav bar*/
 #nav-bar {
     background: transparent !important;
-    margin-top: -32px !important;
-    margin-bottom: -1px !important;
+    margin-top: -8px !important;
+    margin-bottom: 0px !important;
     margin-right: 75vw !important;
-    height: 32px !important;
+    height: 40px !important;
 }
 
 /* URL bar */
@@ -64,12 +64,12 @@
     margin-top: -1px !important;
     margin-bottom: 1px !important;
     margin-left: 25vw !important;
-    max-height: 32px !important;
+    max-height: 40px !important;
 }
 
 .tabbrowser-arrowscrollbox {
-    height: 32px !important;
-    min-height: 32px !important;
+    height: 40px !important;
+    min-height: 40px !important;
 }
 
 .titlebar-placeholder[type="pre-tabs"] {
@@ -91,10 +91,10 @@
 /* Nav bar*/
 #nav-bar {
     background: transparent !important;
-    margin-top: -32px !important;
+    margin-top: -40px !important;
     margin-bottom: -1px !important;
     margin-right: 75vw !important;
-    height: 32px !important;
+    height: 40px !important;
 }
 
 /* URL bar */
@@ -130,4 +130,8 @@
 
 .urlbarView-row {
     padding: 0px !important
+}
+
+hbox.titlebar-spacer{
+display:none;
 }
