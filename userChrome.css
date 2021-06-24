@@ -81,17 +81,6 @@
     display: none !important;
 }
 
-#urlbar[breakout-extend] {
-    top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
-    left: calc((var(--urlbar-toolbar-width) - var(--urlbar-width)) / 2) !important;
-    width: 100% !important
-}
-
-#urlbar[breakout-extend] #urlbar-input-container {
-    height: calc(var(--tab-min-height) - 3px) !important;
-    padding: 0px !important
-}
-
 .urlbarView {
     margin: 0px !important;
     width: 100% !important
