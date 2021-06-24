@@ -1,4 +1,8 @@
 /* Title bar */
+.titlebar-buttonbox {
+    display: none !important;
+}
+
 .titlebar-spacer {
     display: none !important;
 }

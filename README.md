@@ -33,3 +33,4 @@ If your bar doesn't show up in fullscreen when moving the cursor to the top edge
 
 - https://www.reddit.com/r/FirefoxCSS/comments/7eazix/my_attempt_at_a_oneline_interface/
 - https://www.reddit.com/r/FirefoxCSS/comments/7ignsk/oneline_flat_interface_dark_light/
+- https://github.com/andreasgrafen/ag.proton
