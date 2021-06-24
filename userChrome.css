@@ -1,3 +1,8 @@
+/* Title bar */
+.titlebar-spacer {
+    display: none !important;
+}
+
 /* Tab bar */
 #navigator-toolbox {
     border: 0px !important;
@@ -8,7 +13,7 @@
     margin-bottom: 1px !important;
     margin-left: 25vw !important;
     max-height: 40px !important;
-    height:40px;
+    height: 40px !important;
 }
 
 .tabbrowser-arrowscrollbox {
@@ -96,7 +101,7 @@
     margin-top: -40px !important;
     margin-bottom: -1px !important;
     margin-right: 75vw !important;
-    height:40px;
+    height: 40px !important;
 }
 
 /* URL bar */
@@ -132,8 +137,4 @@
 
 .urlbarView-row {
     padding: 0px !important
-}
-
-hbox.titlebar-spacer{
-display:none;
 }
