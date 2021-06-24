@@ -51,65 +51,15 @@
 }
 
 /* URL bar */
-#urlbar-container {
-    min-width: 100px !important;
-}
-
-#urlbar {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-/* Tab bar */
-#navigator-toolbox {
-    border: 0px !important;
-}
-
-#TabsToolbar {
-    margin-top: -1px !important;
-    margin-bottom: 1px !important;
-    margin-left: 25vw !important;
-    max-height: 40px !important;
-    height:40px;
-}
-
-.tabbrowser-arrowscrollbox {
-    height: 40px !important;
-    min-height: 40px !important;
-}
-
-.titlebar-placeholder[type="pre-tabs"] {
-    display: none !important;
-}
-
-.tabbrowser-tab::before, .tabbrowser-tab::after {
-    border-left : none !important;
-}
-
-.tab-line {
-    display: none !important;
-}
-
-:root {
-    --toolbox-border-bottom-color: transparent !important;
-}
-
-/* Nav bar*/
-#nav-bar {
-    background: transparent !important;
-    margin-top: -40px !important;
-    margin-bottom: -1px !important;
-    margin-right: 75vw !important;
-    height: 40px !important;
-}
-
-/* URL bar */
 #back-button {
     display: none !important;
 }
 
 #forward-button {
+    display: none !important;
+}
+
+#tracking-protection-icon-container {
     display: none !important;
 }
 
