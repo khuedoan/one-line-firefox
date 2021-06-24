@@ -61,10 +61,6 @@
     box-shadow: none !important;
 }
 
-#page-action-buttons {
-    display: none !important;
-}
-
 /* Tab bar */
 #navigator-toolbox {
     border: 0px !important;
@@ -109,6 +105,14 @@
 }
 
 /* URL bar */
+#back-button {
+    display: none !important;
+}
+
+#forward-button {
+    display: none !important;
+}
+
 #urlbar-container {
     min-width: 100px !important;
 }
