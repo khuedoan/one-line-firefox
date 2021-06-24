@@ -14,8 +14,7 @@
   - `toolkit.legacyUserProfileCustomizations.stylesheets`: `true`
   - `browser.compactmode.show`: `true`
   - `extensions.pocket.enabled`: `false`
-- Go to Menu > More Tools > Customize Toolbar...: Compact density, auto-hide downloads button, remove all flexible space and unnecessary items.
-  ![Customize](images/customize.png)
+- Go to Menu > More Tools > Customize Toolbar...: use compact density, auto-hide downloads button, remove all flexible space and unnecessary items.
 - Open _`about:support`_, copy Profile Folder
 
 ### In terminal
@@ -25,7 +24,7 @@ cd $PROFILE_FOLDER # copied from the previous step
 git clone https://github.com/khuedoan/one-line-firefox chrome
 ```
 
-Then Restart Firefox.
+Then restart Firefox.
 
 If your bar doesn't show up in fullscreen when moving the cursor to the top edge of the screen, see [#2](https://github.com/khuedoan98/one-line-firefox/issues/2)
 
