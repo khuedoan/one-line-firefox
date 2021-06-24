@@ -2,9 +2,9 @@
 
 ## Screenshots
 
-![Light](images/light.png)
+![Light](https://user-images.githubusercontent.com/27996771/123281450-e5c6ee00-d533-11eb-85ad-fbabc0220948.png)
 
-![Dark](images/dark.png)
+![Dark](https://user-images.githubusercontent.com/27996771/123281332-cdef6a00-d533-11eb-889b-8324a9163198.png)
 
 ## Get Started
 
