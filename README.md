@@ -6,26 +6,30 @@
 
 ![Dark](images/dark.png)
 
-## Instructions
+## Get Started
 
-- Use with compact density, auto-hide downloads button, remove all flexible space and unnecessary items.
+### In Firefox
 
-![Customize](images/customize.png)
+- Open _`about:config`_ and set:
+  - `toolkit.legacyUserProfileCustomizations.stylesheets`: `true`
+  - `browser.compactmode.show`: `true`
+  - `extensions.pocket.enabled`: `false`
+- Go to Menu > More Tools > Customize Toolbar...: Compact density, auto-hide downloads button, remove all flexible space and unnecessary items.
+  ![Customize](images/customize.png)
+- Open _`about:support`_, copy Profile Folder
 
-- In Firefox:
-  - Open _`about:config`_ and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
-  - Open _`about:support`_, click on **Open Folder**.
+### In terminal
 
-- Create a sub-folder named `chrome`.
+```sh
+cd $PROFILE_FOLDER # copied from the previous step
+git clone https://github.com/khuedoan/one-line-firefox chrome
+```
 
-- Put this [`userChrome.css`](https://raw.githubusercontent.com/khuedoan98/one-line-firefox/master/userChrome.css) into that folder (you can download this file by right-click and select _Save link as..._).
+Then Restart Firefox.
 
-- Restart Firefox
+If your bar doesn't show up in fullscreen when moving the cursor to the top edge of the screen, see [#2](https://github.com/khuedoan98/one-line-firefox/issues/2)
 
-- If your bar doesn't show up in fullscreen when moving the cursor to the top edge of the screen, see [#2](https://github.com/khuedoan98/one-line-firefox/issues/2)
+## Acknowledgements
 
-Based on original layout by /u/Herkt and /u/bleeps__:
-
-https://www.reddit.com/r/FirefoxCSS/comments/7eazix/my_attempt_at_a_oneline_interface/
-
-https://www.reddit.com/r/FirefoxCSS/comments/7ignsk/oneline_flat_interface_dark_light/
+- https://www.reddit.com/r/FirefoxCSS/comments/7eazix/my_attempt_at_a_oneline_interface/
+- https://www.reddit.com/r/FirefoxCSS/comments/7ignsk/oneline_flat_interface_dark_light/
