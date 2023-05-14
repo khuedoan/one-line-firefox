@@ -46,6 +46,10 @@
     box-shadow: none !important;
 }
 
+#urlbar[focused] {
+    width: 100vw !important;
+}
+
 #page-action-buttons {
     display: none !important;
 }
