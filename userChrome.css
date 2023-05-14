@@ -19,8 +19,8 @@
 /* Nav bar*/
 #nav-bar {
     background: transparent !important;
-    margin-top: -36px !important;
     margin-right: 80vw !important;
+    margin-top: -36px !important;
 }
 
 /* URL bar */
@@ -37,7 +37,7 @@
 }
 
 #urlbar-container {
-    min-width: 100px !important;
+    width: auto !important;
 }
 
 #urlbar {
@@ -46,7 +46,7 @@
     box-shadow: none !important;
 }
 
-#urlbar[focused] {
+#urlbar[breakout-extend] {
     width: 100vw !important;
 }
 
